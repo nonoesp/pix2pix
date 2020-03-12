@@ -41,5 +41,5 @@ output_instance = dict(output=output_value, key="0")
 b64data = output_instance["output"]
 output_data = base64.urlsafe_b64decode(b64data)
 
-with open('bin/' + input_file.split('/')[-1] + 'output.png', "wb") as f:
+with open('bin/' + input_file.split('/')[-1] + '.output.png', "wb") as f:
    f.write(output_data)

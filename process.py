@@ -9,7 +9,7 @@ import numpy as np
 
 # Config
 input_file = './sample_inputs/170402_212445-pix-08-in.png'
-pix2pix_model = '170330_pix-05-edges2daisies-200e'
+pix2pix_model = '/models/170330_pix-05-edges2daisies-200e'
 
 # Load image, serialized, convert to dict
 with open(input_file, 'rb') as f:
